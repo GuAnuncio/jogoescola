@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(to right, darkblue, blue, lightblue);
+    background-image: linear-gradient(to right, darkblue, blue, lightgray);
 }
 
 h1 {
