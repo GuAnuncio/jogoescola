@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, darkgreen, green, lightgreen);
+}
+
+h1 {
+    text-align: center;
+}
+@font-face {
+  font-family: 'Fira';
+  src: url('FiraSansCondensed-Bold.ttf');
+}
+.fonte{
+    font-family:'Fira',sans-serif;
+}
+img{
+    height: 150px !important;
+    width: 150px !important;
+    object-fit: cover;
+    border-radius: 10px;
+    }
+figure{
+    margin: 0;
+    text-align: center;
+    }
