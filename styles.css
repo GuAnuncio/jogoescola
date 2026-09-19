@@ -38,14 +38,18 @@ img{
 
 }
 
-figure {
+figure{
+
     margin: 10px;
 
     text-align: center;
 
     display: inline-block;
 
-    width: 20%;
-    
+    width: calc(25% - 30px);
+
     vertical-align: top;
-}
+
+    box-sizing: border-box;
+
+}}
