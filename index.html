@@ -1,43 +1,51 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogos da escola</title>
+<@charset "UTF-8";
 
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Jogos da escola</h1>
-<figure>
-    <a href="https://shellshock.io/">
-        <img src="https://imgs.crazygames.com/shellshockersio_1x1/20260203211252/shellshockersio_1x1-cover?format=auto&quality=100&metadata=none&width=1200" alt="iamgem do jogo">
-    </a>
-<figcaption>Shell shocks</figcaption>
-</figure>
-<figure>
-    <a href="https://smashkarts.io/">
-        <img src="https://imgs.crazygames.com/smash-karts_1x1/20260210123937/smash-karts_1x1-cover?format=auto&quality=100&metadata=none&width=1200" alt="iamgem do jogo">
-    </a>
-<figcaption>Smash karts</figcaption>
-</figure>
-<figure>
-    <a href="https://gartic.io/">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Logotipo_gartic.png?utm_source=pt.wikipedia.org&amp;utm_campaign=index&amp;utm_content=original" alt="iamgem do jogo">
-    </a>
-<figcaption>Gartic</figcaption>
-</figure>
-<figure>
-    <a href="https://stopots.com/pt">
-        <img src="https://play-lh.googleusercontent.com/DclcZ3d2FRA6ejiOgKjJk_RPuLDO0Y4E5JnxUwNyvo2MFctWIT_RTsJRoDicGDRbeRzBuiVsfZKtlAICN9Ht" alt="iamgem do jogo">
-    </a>
-<figcaption>Stop</figcaption>
-</figure>
-<figure>
-    <a href="https://venge.io/">
-        <img src="https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/a2ddd7d16a599f8f01b65a3bc453e698/venge-io-logo.png" alt="iamgem do jogo">
-    </a>
-<figcaption>Venge</figcaption>
-</figure>
-</body>
-</html>
+body {
+
+    background-image: linear-gradient(to right, darkblue, blue, lightgray);
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+@font-face {
+
+  font-family: 'Fira';
+
+  src: url('FiraSansCondensed-Bold.ttf');
+
+}
+
+.fonte{
+
+    font-family:'Fira',sans-serif;
+
+}
+
+img{
+
+    height: 150px !important;
+
+    width: 150px !important;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+}
+
+figure{
+
+    margin: 10px;
+
+    text-align: center;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+}
