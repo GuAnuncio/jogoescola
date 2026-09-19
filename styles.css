@@ -40,8 +40,12 @@ img{
 
 figure {
     margin: 10px;
+
     text-align: center;
+
     display: inline-block;
+
     width: 20%;
+    
     vertical-align: top;
 }
