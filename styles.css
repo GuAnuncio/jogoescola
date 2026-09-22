@@ -53,6 +53,9 @@ figure{
     box-sizing: border-box;
 
 }
-p {
+.esqueda {
     text-align: left;
+    }
+.direita {
+    text-align: right;
     }
